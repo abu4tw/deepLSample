@@ -28,7 +28,7 @@ https://www.deepl.com/zh/docs-api/other-functions/listing-supported-languages/
 
 5.翻譯後, 再Ctrl + V貼上翻譯後的內文是否正確..
 
-<H2>##################################################################################</H2>
+<H2>###########################################################</H2>
 
 Use DeepL to translate the text in the clipboard and return it to the clipboard for use by third-party systems.
 
