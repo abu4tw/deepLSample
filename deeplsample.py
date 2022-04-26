@@ -19,9 +19,9 @@ lang = args.lang
 
 print("To --> ", lang)
 
-for line in open('dictionary.ini', "r", encoding='utf-8'):  # 设置文件对象并读取每一行文件
-    re = line.split("||")  # 将每一行文件加入到list中
-    flow = flow.replace(re[0], re[1].strip())
+for line in open('dictionary.ini', "r", encoding='utf-8'): 
+    re = line.split("||") 
+    flow = flow.replace(re[0], re[1].strip()) #組詞字典取代
 
 
 translator = deepl.Translator("******Authentication Key******")
