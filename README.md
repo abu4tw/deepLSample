@@ -27,3 +27,27 @@ https://www.deepl.com/zh/docs-api/other-functions/listing-supported-languages/
 4.測試 先複制一對文字到剪貼版, 執行默認是翻譯成英文
 
 5.翻譯後, 再Ctrl + V貼上翻譯後的內文是否正確..
+
+<H2>######################################################################################################</
+
+Use DeepL to translate the text in the clipboard and return it to the clipboard for use by third-party systems.
+
+python 3.5 or above
+
+System idea: Use DeepL core to translate the text from the clipboard into the corresponding country language. Put it back into the cut and paste version.
+
+Functionality: Third party system, put the data to be translated into the clipboard, call and run this program deeplsample.exe --lang=EN-US After the data in the clipboard is translated, then paste it back into the third party system.
+
+Supported languages Please refer to DeepL https://www.deepl.com/zh/docs-api/other-functions/listing-supported-languages/
+
+=====================================================
+
+pip install -r requirements.txt
+
+use tool open deeplsample.py
+
+Translator = deepl.Translator("Authentication Key") <-- Replace the authorization key with the authorization code from DeepL.
+
+4. Test: First copy a pair of text to the clipboard, and run the default translation into English
+
+5. After translation, Ctrl + V paste the translated text to see if it is correct.
