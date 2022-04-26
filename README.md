@@ -42,12 +42,12 @@ Supported languages Please refer to DeepL https://www.deepl.com/zh/docs-api/othe
 
 =====================================================
 
-pip install -r requirements.txt
+1.pip install -r requirements.txt
 
-use tool open deeplsample.py
+2.use tool open deeplsample.py
 
-Translator = deepl.Translator("Authentication Key") <-- Replace the authorization key with the authorization code from DeepL.
+3.Translator = deepl.Translator("Authentication Key") <-- Replace the authorization key with the authorization code from DeepL.
 
-4. Test: First copy a pair of text to the clipboard, and run the default translation into English
+4.Test: First copy a pair of text to the clipboard, and run the default translation into English
 
-5. After translation, Ctrl + V paste the translated text to see if it is correct.
+5.After translation, Ctrl + V paste the translated text to see if it is correct.
