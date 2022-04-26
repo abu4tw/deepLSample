@@ -16,6 +16,7 @@ deeplsample.exe --lang=EN-US
 https://www.deepl.com/zh/docs-api/other-functions/listing-supported-languages/
 
 =====================================================
+
 1. pip install -r requirements.txt
 
 2. use tool open deeplsample.py
